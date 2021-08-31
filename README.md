@@ -22,12 +22,22 @@ docker exec -it postgres bash
 psql -U registration -d registration -W registration -h localhost -p 5432
 ```
 
+## Database use
+
 - For manual database creation run following commands using psql
 ```
 CREATE DATABASE REGISTRATION;
 \l 
-
 ```
+
+- For database objects listing run the following command:
+```
+\d
+\d object_name
+```
+  
+
+
 
 ## Killing concurrent processes
 
@@ -148,3 +158,14 @@ Spring Conditionals:
 
 Design Patterns:
 - 
+
+## Java
+
+Predicates:
+- [Java 11 Predicate API](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/function/Predicate.html)
+- [ZetCode on Predicate](https://zetcode.com/java/predicate/)
+- [Baeldung on Predicate Chain](https://www.baeldung.com/java-predicate-chain)
+- [HowToDoInJava on Predicate Filter](https://howtodoinjava.com/java8/how-to-use-predicate-in-java-8/)
+- [GeeksForGeeks on Java 8 Predicate](https://www.geeksforgeeks.org/java-8-predicate-with-examples/)
+- [MKYokng on Java 8 Predicates](https://mkyong.com/java8/java-8-predicate-examples/)
+
