@@ -5,6 +5,30 @@
 Generated from [Spring Initializr](start.spring.io) boilerplate with given link:
 @ [Project Boilerplate](https://start.spring.io/#!type=maven-project&language=java&platformVersion=2.5.4&packaging=jar&jvmVersion=11&groupId=co.bittclouds&artifactId=api-user&name=api-user&description=User%20microservice&packageName=co.bittclouds.api-user&dependencies=lombok,web,security,postgresql,data-jpa,mail)
 
+## Getting Started
+
+### Reference Documentation
+For further reference, please consider the following sections:
+
+* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
+* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.5.4/maven-plugin/reference/html/)
+* [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.5.4/maven-plugin/reference/html/#build-image)
+* [Spring Web](https://docs.spring.io/spring-boot/docs/2.5.4/reference/htmlsingle/#boot-features-developing-web-applications)
+* [Spring Security](https://docs.spring.io/spring-boot/docs/2.5.4/reference/htmlsingle/#boot-features-security)
+* [Spring Data JPA](https://docs.spring.io/spring-boot/docs/2.5.4/reference/htmlsingle/#boot-features-jpa-and-spring-data)
+* [Java Mail Sender](https://docs.spring.io/spring-boot/docs/2.5.4/reference/htmlsingle/#boot-features-email)
+
+### Guides
+The following guides illustrate how to use some features concretely:
+
+* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
+* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
+* [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
+* [Securing a Web Application](https://spring.io/guides/gs/securing-web/)
+* [Spring Boot and OAuth2](https://spring.io/guides/tutorials/spring-boot-oauth2/)
+* [Authenticating a User with LDAP](https://spring.io/guides/gs/authenticating-ldap/)
+* [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
+
 ## Database Setup
 
 - For development purpose, run the following command with docker:
@@ -156,8 +180,64 @@ Spring Conditionals:
 - [LogicBig on Conditionals](https://www.logicbig.com/how-to/code-snippets/jcode-spring-framework-conditional.html)
 - [DZone on Conditionals](https://dzone.com/articles/testing-spring-boot-conditionals-the-sane-way)
 
+Spring Beans:
+- [Baeldung on Spring Bean Annotations](https://www.baeldung.com/spring-bean-annotations)
+- [SpringDocs on Bean Annotation](https://docs.spring.io/spring-javaconfig/docs/1.0.0.M4/reference/html/ch02s02.html)
+- [SpringDocs on Bean Definition](https://docs.spring.io/spring-javaconfig/docs/1.0.0.m3/reference/html/creating-bean-definitions.html)
+- [SpringDocs on IoC and Beans](https://docs.spring.io/spring-framework/docs/current/reference/html/core.html)
+- [Spring Bean API](https://docs.spring.io/spring-framework/docs/3.2.0.M1_to_3.2.0.M2/Spring%20Framework%203.2.0.M2/org/springframework/context/annotation/Bean.html)
+- [SpringDocs on IoC Container](https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/beans.html)
+- [JournalDev on Spring Bean Annotation](https://www.journaldev.com/21577/spring-bean-annotation)
+- [ZetCode on Spring Boot Bean](https://zetcode.com/springboot/bean/)
+- [Baeldung on Spring Component, Repository and Service Anotations](https://www.baeldung.com/spring-component-repository-service)
+- [Baeldung on Spring Service Annotation Placement](https://www.baeldung.com/spring-service-annotation-placement)
+- [SpringDocs Service API](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/stereotype/Service.html)
+- [JournalDev on Spring Service Annotation](https://www.journaldev.com/21435/spring-service-annotation)
+- [StackOverflow on Spring Service Annotation](https://stackoverflow.com/questions/47668871/what-is-a-spring-service-annotation)
+- [DevMedia on Spring Annotations](https://www.devmedia.com.br/introducao-pratica-ao-spring-framework-com-uso-de-anotacoes/27859)
+- [TutorialsPoint on Spring Boot Service Components](https://www.tutorialspoint.com/spring_boot/spring_boot_service_components.htm)
+-
+
 Design Patterns:
-- 
+- []()
+
+Pageable:
+- []()
+
+Aspect:
+- []()
+
+HTTP Codes:
+- []()
+
+Stream API:
+- []()
+
+Java 8/11:
+- []()
+
+RestTemplate vs WebClient vs Feign:
+- []()
+
+Jaeger:
+- []()
+
+Docker:
+- []()
+
+Kubernetes:
+- []()
+
+Rabbit:
+- []()
+
+EFK (Elastic, Fluentd and Kibana:
+- []()
+
+Kafka:
+- []()
+
+##
 
 ## Java
 
