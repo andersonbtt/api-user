@@ -249,3 +249,7 @@ Predicates:
 - [GeeksForGeeks on Java 8 Predicate](https://www.geeksforgeeks.org/java-8-predicate-with-examples/)
 - [MKYokng on Java 8 Predicates](https://mkyong.com/java8/java-8-predicate-examples/)
 
+## Git
+
+- [Remove tracked files from repository](https://stackoverflow.com/questions/7927230/remove-directory-from-remote-repository-after-adding-them-to-gitignore)
+- [Git Docs on .gitignore](https://git-scm.com/docs/gitignore)
