@@ -59,8 +59,16 @@ CREATE DATABASE REGISTRATION;
 \d
 \d object_name
 ```
-  
 
+## SMTP Server
+
+- For further information, checkout [maildev](https://github.com/maildev/maildev) repo
+  
+- For setting up test SMTP server, run the following command:
+```
+$ npm install -g maildev
+$ maildev
+```
 
 
 ## Killing concurrent processes
