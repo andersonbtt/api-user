@@ -38,6 +38,9 @@ public class AppUserService implements UserDetailsService {
             throw new IllegalStateException("Email already taken!");
         }
 
+        // TODO: check of attributes are the same
+        // TODO: if email not confirmed send confirmation e-mail
+
         String encodedPassword = bCryptPasswordEncoder
                 .encode(appUser.getPassword());
 
@@ -46,7 +49,7 @@ public class AppUserService implements UserDetailsService {
         appUserRepository.save(appUser);
 
         String token = UUID.randomUUID().toString();
-        //TODO: Send confirmation token
+
         ConfirmationToken confirmationToken = new ConfirmationToken(
                 token,
                 LocalDateTime.now(),
@@ -55,8 +58,6 @@ public class AppUserService implements UserDetailsService {
         );
 
         confirmationTokenService.saveConfirmationToken(confirmationToken);
-
-        //TODO: Send email
 
         return confirmationToken.getToken();
     }
